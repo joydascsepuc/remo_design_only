@@ -1,0 +1,103 @@
+.bg-img{
+  background: url(../img/firstpic.jpg) no-repeat center center/cover;
+  position: relative;
+   min-height: 500px;
+}
+nav img{
+ margin-top: 1.5rem;
+}
+.bg-img .nav-item a: hover{
+  color: green !important;
+}
+.carousel-item img{
+  height: 60%;
+}
+.showcase-container{
+  display: flex;
+  justify-content: space-between;
+}
+.content{
+  margin: 2rem 0;
+  font-weight: bold;
+}
+footer a i{
+  color: #333;
+}
+.showcase{
+  background: url(../img/b5c1.jpg) no-repeat center center/cover;
+  height: 500px;
+}
+.showcase-content{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  color: #fff;
+  font-weight: bold;
+}
+.showcase-content h3{
+  font-size: 4.5rem;
+  padding-bottom: 1.3rem;
+}
+.showcase-content p{
+  font-size: 2rem;
+}
+.container{
+  margin-top: 4rem;
+}
+.container h5,
+.container h3{
+  padding-bottom: 1rem;
+}
+.jumbotron{
+  background: #fff;
+  border: solid 1px #333;
+  border-radius: 25px;
+}
+.jumbotron h4{
+  font-size: 2rem;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 50px;
+  right: -40px;
+  background-color: white;
+  color: black;
+  padding:40px 15px;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  opacity: .7;
+}
+
+.courselImages{
+  max-height: 27rem !important; 
+}
+
+@media (max-width: 500px){
+  footer ul{
+    padding-top: .75rem;
+  }
+  .showcase-content h3{
+    font-size: 1.5rem;
+    padding-bottom: 1.3rem;
+  }
+  .showcase-content p{
+    font-size: 1rem;
+  }
+  .showcase{
+    background-image: fluid;
+  }
+
+  .card{
+    margin-left: .3rem;
+  }
+
+  .courselImages{
+    max-height: 10rem !important; 
+  }
+
+
+}
+
+
